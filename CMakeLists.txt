@@ -6,6 +6,6 @@ conan_basic_setup()
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Project main.cpp side_functions.h)
+add_executable(Project main.cpp side_functions.h block_centers.h)
 
 target_link_libraries(Project ${CONAN_LIBS})

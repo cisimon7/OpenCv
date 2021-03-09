@@ -1,5 +1,6 @@
 [requires]
-opencv/4.5.1
+aruco/3.1.12
+
 
 [generators]
 cmake
